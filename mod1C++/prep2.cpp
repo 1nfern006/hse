@@ -199,6 +199,5 @@ int main() {
         std::cout << fa[i] << " ";
     }
     std::cout << std::endl;
-
     return 0;
 }
