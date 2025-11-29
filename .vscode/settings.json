@@ -57,6 +57,10 @@
         "stop_token": "cpp",
         "thread": "cpp",
         "variant": "cpp",
-        "map": "cpp"
-    }
+        "map": "cpp",
+        "set": "cpp",
+        "list": "cpp",
+        "fstream": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/alisa/hse/mod2C++/hw1"
 }

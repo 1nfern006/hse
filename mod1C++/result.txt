@@ -1,0 +1,54 @@
+Operation PushBack
+n = 8192: vector: 0.84 ms, deque: 0.90 ms, list: 3.11 ms
+
+n = 32768: vector: 3.57 ms, deque: 3.54 ms, list: 12.61 ms
+
+n = 262144: vector: 30.60 ms, deque: 27.60 ms, list: 94.74 ms
+
+n = 1048576: vector: 102.30 ms, deque: 94.93 ms, list: 345.86 ms
+
+Operation PushFront
+n = 8192: vector: 11.70 ms, deque: 0.81 ms, list: 2.60 ms
+
+n = 32768: vector: 164.72 ms, deque: 2.95 ms, list: 10.37 ms
+
+n = 262144: vector: 16555.59 ms, deque: 26.40 ms, list: 92.67 ms
+
+n = 1048576: vector: Too long test, deque: Too long test, list: Too long test
+
+Operation RandomInsert
+n = 8192: vector: 9.65 ms, deque: 53.04 ms, list: 528.62 ms
+
+n = 32768: vector: Too long test, deque: Too long test, list: Too long test
+
+n = 262144: vector: Too long test, deque: Too long test, list: Too long test
+
+n = 1048576: vector: Too long test, deque: Too long test, list: Too long test
+
+Operation RandomErase
+n = 8192: vector: 8.69 ms, deque: 47.63 ms, list: 486.43 ms
+
+n = 32768: vector: Too long test, deque: Too long test, list: Too long test
+
+n = 262144: vector: Too long test, deque: Too long test, list: Too long test
+
+n = 1048576: vector: Too long test, deque: Too long test, list: Too long test
+
+Operation IterateSum
+n = 8192: vector: 0.31 ms, deque: 0.23 ms, list: 0.48 ms
+
+n = 32768: vector: 1.40 ms, deque: 0.85 ms, list: 1.92 ms
+
+n = 262144: vector: 11.02 ms, deque: 6.30 ms, list: 13.18 ms
+
+n = 1048576: vector: 38.33 ms, deque: 29.03 ms, list: 56.59 ms
+
+Operation RandomAccess
+n = 8192: vector: 0.45 ms, deque: 2.53 ms, list: 364.60 ms
+
+n = 32768: vector: 2.51 ms, deque: 11.33 ms, list: 6249.79 ms
+
+n = 262144: vector: 23.00 ms, deque: 105.33 ms, list: Too long test
+
+n = 1048576: vector: 136.71 ms, deque: 528.26 ms, list: Too long test
+

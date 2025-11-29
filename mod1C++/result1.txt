@@ -1,0 +1,54 @@
+Operation PushBack
+n = 8192: vector: 0.89 ms, deque: 0.94 ms, list: 3.21 ms
+
+n = 32768: vector: 3.93 ms, deque: 3.59 ms, list: 13.38 ms
+
+n = 262144: vector: 30.20 ms, deque: 29.34 ms, list: 105.64 ms
+
+n = 1048576: vector: 121.68 ms, deque: 109.29 ms, list: 394.26 ms
+
+Operation PushFront
+n = 8192: vector: 13.99 ms, deque: 0.88 ms, list: 3.03 ms
+
+n = 32768: vector: 210.23 ms, deque: 3.31 ms, list: 12.33 ms
+
+n = 262144: vector: 19164.37 ms, deque: 26.60 ms, list: 97.08 ms
+
+n = 1048576: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+Operation RandomInsert
+n = 8192: vector: 10.98 ms, deque: 57.88 ms, list: 530.61 ms
+
+n = 32768: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+n = 262144: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+n = 1048576: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+Operation RandomErase
+n = 8192: vector: 10.11 ms, deque: 59.03 ms, list: 519.58 ms
+
+n = 32768: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+n = 262144: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+n = 1048576: vector: Слишком долгий вывод, deque: Слишком долгий вывод, list: Слишком долгий вывод
+
+Operation IterateSum
+n = 8192: vector: 0.40 ms, deque: 0.31 ms, list: 0.60 ms
+
+n = 32768: vector: 1.99 ms, deque: 1.59 ms, list: 2.18 ms
+
+n = 262144: vector: 12.57 ms, deque: 8.50 ms, list: 16.34 ms
+
+n = 1048576: vector: 57.78 ms, deque: 33.91 ms, list: 65.75 ms
+
+Operation RandomAccess
+n = 8192: vector: 0.52 ms, deque: 4.06 ms, list: 448.03 ms
+
+n = 32768: vector: 2.15 ms, deque: 12.18 ms, list: 7791.69 ms
+
+n = 262144: vector: 30.36 ms, deque: 139.78 ms, list: Слишком долгий вывод
+
+n = 1048576: vector: 207.51 ms, deque: 613.12 ms, list: Слишком долгий вывод
+

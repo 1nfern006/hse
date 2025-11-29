@@ -1,0 +1,8 @@
+Sun Nov 30 01:27:12 2025	[INFO] [default ctor] id=1 this=0x7fffffffda10
+Sun Nov 30 01:27:12 2025	[INFO] [char* ctor] id=2 this=0x7fffffffda40
+Sun Nov 30 01:27:12 2025	[INFO] [string ctor] id=3 this=0x7fffffffda70
+Sun Nov 30 01:27:12 2025	[INFO] [copy ctor] id=4 this=0x7fffffffdaa0 from id=3
+Sun Nov 30 01:27:12 2025	[INFO] [dtor] id=4 this=0x7fffffffdaa0
+Sun Nov 30 01:27:12 2025	[INFO] [dtor] id=3 this=0x7fffffffda70
+Sun Nov 30 01:27:12 2025	[INFO] [dtor] id=2 this=0x7fffffffda40
+Sun Nov 30 01:27:12 2025	[INFO] [dtor] id=1 this=0x7fffffffda10
